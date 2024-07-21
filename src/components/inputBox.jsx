@@ -11,7 +11,7 @@ function input({
   CurrencyDisabled = false,
 }) {
   return (
-    <div className="bg-white flex justify-between sm:gap-3 py-2 rounded-lg m-3">
+    <div className="bg-white flex justify-between items-center sm:gap-3 py-2 rounded-lg m-3">
       <div className="text-start m-2">
         <label htmlFor="input" className="">
           {label}

@@ -37,7 +37,7 @@ function App() {
             "url(https://images.pexels.com/photos/259209/pexels-photo-259209.jpeg?auto=compress&cs=tinysrgb&w=600)",
         }}
       >
-        <div className="w-[300px] text-[small] sm:text-base sm:w-[65%] md:w-[55%] lg:w-[40%] border rounded-lg p-2 sm:p-6 pb-1 backdrop-brightness-80 backdrop-blur-sm text-center">
+        <div className="max-w-80 text-[small] sm:text-base sm:max-w-[65%] md:max-w-[55%] lg:max-w-[44%] border rounded-lg p-2 sm:p-6 pb-1 backdrop-brightness-80 backdrop-blur-sm text-center">
           <form onSubmit={submit} className="relative" >
             <InputBox
               label="From"
